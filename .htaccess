@@ -1,6 +1,7 @@
 AddDefaultCharset UTF-8
 
 RewriteEngine on
+RewriteBase /
 
 RewriteCond %{SCRIPT_FILENAME} !-f
 RewriteCond %{SCRIPT_FILENAME} !-d
